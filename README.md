@@ -15,6 +15,13 @@ MySQLite3Util.py|SQLite3数据库操作封装类，实现数据库的操作
 Models.py|ORM对象关系映射类
 Stu.db|数据库文件
 
+### Qt Designer文件
+文件名|注释
+---------|---------|
+_mainUI.i|主窗口界面UI设计文件
+_StuAddMsgBox.ui|学生添加信息界面UI设计文件
+_TchAddMsgBox.ui|教师添加信息界面UI设计文件
+
 ###平台和依赖
 
 环境 |信息     
