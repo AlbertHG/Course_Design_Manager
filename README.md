@@ -18,7 +18,7 @@ Stu.db|数据库文件
 ### Qt Designer文件
 文件名|注释
 ---------|---------|
-_mainUI.i|主窗口界面UI设计文件
+_mainUI.ui|主窗口界面UI设计文件
 _StuAddMsgBox.ui|学生添加信息界面UI设计文件
 _TchAddMsgBox.ui|教师添加信息界面UI设计文件
 
