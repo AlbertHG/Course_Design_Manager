@@ -10,7 +10,7 @@ from _TchAddMsgBox import Ui_TchAddMsgBox
 
 
 class TchAddMsgBox(object):
-    """说明文档"""
+    """教师添加信息窗口封装类，"""
 
     def __init__(self):
         self.dialog = QtWidgets.QDialog()
@@ -113,6 +113,7 @@ class TchAddMsgBox(object):
 
 
 class StuAddMsgBox(object):
+    """学生添加信息窗口封装类，"""
     def __init__(self):
         self.dialog = QtWidgets.QDialog()
         window = Ui_StuAddMsgBox()
