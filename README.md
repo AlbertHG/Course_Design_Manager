@@ -68,7 +68,7 @@ AssID|INTEGER|True|外键，题目编号
 
 ### 2.2.3 逻辑实现和使用
 
-#### init.pyw运行文件启动程序
+#### 2.2.3.1 init.pyw运行文件启动程序
 
 ```python
 """程序启动器"""
@@ -85,7 +85,7 @@ if __name__ == '__main__':
 
 ![](https://raw.githubusercontent.com/AlbertHG/Course_Design_Manager/master/md_images/02.png)
 
-#### 老师录入课程相关信息
+#### 2.2.3.2 老师录入课程相关信息
 
 ![](https://raw.githubusercontent.com/AlbertHG/Course_Design_Manager/master/md_images/03.png)
 
@@ -95,7 +95,7 @@ if __name__ == '__main__':
 
 ![](https://raw.githubusercontent.com/AlbertHG/Course_Design_Manager/master/md_images/04.png)
 
-#### 学生录入选题和分组
+#### 2.2.3.3 学生录入选题和分组
 
 1. “题目”下拉框获取数据库关于题目的相关内容
 2. 小组名称作为区分同一题目下的不同小组的关键信息
@@ -104,28 +104,28 @@ if __name__ == '__main__':
 
 ![](https://raw.githubusercontent.com/AlbertHG/Course_Design_Manager/master/md_images/05.png)
 
-#### 信息检索操作
+#### 2.2.3.4 信息检索操作
 
 - 提供快速检索操作：在信息检索框输入内容，被匹配的信息即时呈现在主界面上。
 - 信息检索操作提供三类信息检索：课设题目检索，专业检索和学生姓名检索。
 - 同时提供搜索按钮，该动作会立即激活检索操作
 
-#### 全局信息展示
+#### 2.2.3.5 全局信息展示
 
 - 全局信息展示以树的形式展示数据库所有内容
 
-#### 分类信息展示
+#### 2.2.3.6 分类信息展示
 
 - 题目信息将以表格的形式呈现
 - 小组和成员信息将以信息组合框的形式展示
     - 小组和成员信息提供删除操作
     - 小组信息展示框提供成绩录入和投票操作响应
 
-#### 刷新系统
+#### 2.2.3.7 刷新系统
 
 即时重置主界面，重新获取数据库数据
 
-#### 删除课程档案
+#### 2.2.3.8 删除课程档案
 
 档案一旦删除不可恢复。
 
