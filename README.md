@@ -1,6 +1,3 @@
-# Course_Design_Manager
-Course design engineering code.
-
 <h1 align="center">简易课程作业管理工具</h1>
 
 ## 成员分组和任务分工
@@ -41,7 +38,6 @@ AssName|TEXT|False|题目名称
 MaxCount|INTEGER|True|题目的小组容量
 CurrentCount|INTEGER|True|当前题目的小组数
 
-
 *Majors表*
 
 列名 |类型|允许NULL|备注
@@ -69,7 +65,6 @@ TeamName|TEXT|False|小组名称
 TeamScore|INTEGER|True|小组成绩
 VoteNum|INTEGER|True|得票数
 AssID|INTEGER|True|外键，题目编号
-
 
 #### 逻辑实现和使用
 
