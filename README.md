@@ -26,7 +26,7 @@ Course design engineering code.
 ### 设计思路详细描述
 
 #### 数据库E-R图
-![](01)
+![](https://raw.githubusercontent.com/AlbertHG/Course_Design_Manager/master/md_images/01.png)
 
 #### 数据库字段定义
 
@@ -88,17 +88,17 @@ if __name__ == '__main__':
 
 调用MainWindow类生成主界面
 
-![](02)
+![](https://raw.githubusercontent.com/AlbertHG/Course_Design_Manager/master/md_images/02.png)
 
 ##### 老师录入课程相关信息
 
-![](03)
+![](https://raw.githubusercontent.com/AlbertHG/Course_Design_Manager/master/md_images/03.png)
 
 可供输入的类别有三个，分别是：课程题目、该题容量和课程专业。
 - 其中题目容量文本框必须在课程题目文本框有内容的情况下才被激活
 - 课程专业文本框和其他框互相独立
 
-![](04)
+![](https://raw.githubusercontent.com/AlbertHG/Course_Design_Manager/master/md_images/04.png)
 
 ##### 学生录入选题和分组
 
@@ -107,7 +107,7 @@ if __name__ == '__main__':
 3. 每组小队人数不得超过6人
 4. 只有完成填写了专业、姓名和学号的成员信息才会被系统录入
 
-![](05)
+![](05https://raw.githubusercontent.com/AlbertHG/Course_Design_Manager/master/md_images/05.png)
 
 ##### 信息检索操作
 
